@@ -1,0 +1,153 @@
+:root {
+	--soft-blue: hsl(215, 51%, 70%);
+	--cyan: hsl(178, 100%, 50%);
+	--bg-dark-blue: hsl(217, 54%, 11%);
+	--card-dark-blue: hsl(216, 50%, 16%);
+	--line-dark-blue: hsl(215, 32%, 27%);
+	--white: #ffffff;
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--bg-dark-blue);
+}
+
+.card-container {
+    min-height: 100vh;
+    margin: auto auto;
+    position: relative;
+}
+
+.card {
+    background-color: var(--card-dark-blue);
+    width: 26rem;
+    border-radius: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 5%);
+}
+
+.card-header {
+    padding: 2rem;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image-1 {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-effect {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 0.4s ease;
+    background-color: var(--cyan);
+    border-radius: 8px;
+}
+
+.card-image:hover .card-effect{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.card-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.card-title {
+    margin-left: 2.8rem;
+    color: var(--white)
+}
+
+.card-title:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.card-text {
+    color: var(--soft-blue);
+    font-weight: 100;
+    font-size: 18px;
+    width: 80%;
+    margin-left: 2.8rem;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+.card-content {
+    margin-left: 2.5rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid var(--bg-dark-blue);
+    max-width: 80%;
+    padding-bottom: 1rem;
+}
+.card-content-text::before {
+    content: url(images/icon-ethereum.svg);
+    padding-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.card-content-text {
+    display: inline;
+    color: var(--cyan);
+    font-size: 18px;
+    margin-left: 0.5rem;
+}
+
+.card-innercontent{
+	float: right;
+	margin-top: -1.5rem;
+}
+
+.card-innercontent-text::before{
+	content: url(images/icon-clock.svg);
+	padding-right: 0.3rem;
+	vertical-align: middle;
+}
+
+.card-innercontent-text{
+	color: var(--soft-blue);
+	font-size: 18px;
+}
+
+.card-footer{
+	margin: auto auto;
+	position: relative;
+	padding: 1rem;
+}
+
+.card-image-3{
+	height: 2rem;
+	margin-left: 1.5rem;
+	border: 1px solid var(--white);
+	border-radius: 50%;
+}
+
+.card-footer-text{
+	position: absolute;
+	font-size: 18px;
+	margin-left: 5.5rem;
+	margin-top: -2rem;
+	color: var(--soft-blue);
+}
+span{
+	color: var(--white);
+}
+
+span:hover{
+	color: var(--cyan);
+	cursor: pointer;
+}
