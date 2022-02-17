@@ -79,4 +79,4 @@ Lembre-se de que, se estiver procurando feedback sobre sua solução, faça perg
 Há vários lugares onde você pode compartilhar sua solução:
 
 1. Compartilhe sua página de solução no canal **#finished-projects** da [comunidade do Slack](https://www.frontendmentor.io/slack).
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) e mencione **@frontendmentor**, incluindo o repositório e os URLs ativos no tweet. Adoraríamos dar uma olhada no que você
+2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) e mencione **@frontendmentor**, incluindo o repositório e os URLs ativos no tweet.
