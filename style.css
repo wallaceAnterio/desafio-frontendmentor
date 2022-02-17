@@ -95,7 +95,7 @@ body {
     padding-bottom: 1rem;
 }
 .card-content-text::before {
-    content: url(images/icon-ethereum.svg);
+    content: url(./images/icon-ethereum.svg);
     padding-right: 0.5rem;
     vertical-align: middle;
 }
@@ -113,7 +113,7 @@ body {
 }
 
 .card-innercontent-text::before{
-	content: url(images/icon-clock.svg);
+	content: url(./images/icon-clock.svg);
 	padding-right: 0.3rem;
 	vertical-align: middle;
 }
